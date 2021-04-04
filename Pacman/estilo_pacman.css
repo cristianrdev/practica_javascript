@@ -1,0 +1,48 @@
+*{
+    
+    
+    /* outline: 1px solid black; */
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+}
+
+
+body{
+    background-color: black;
+}
+
+
+
+.filas div{
+    width: 20px;
+    height: 20px;
+    
+    display: inline-block;
+}
+
+
+
+.ladrillos{
+    background-color: blue;
+}
+
+.moneda{
+    background: url('assets/coin.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 18px 23px;
+}
+
+.pacman{
+    background: url('assets/pacman_derecha.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.vacio{
+ background-color: none ;
+}
+
+
